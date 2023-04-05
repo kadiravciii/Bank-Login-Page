@@ -1,0 +1,73 @@
+.panel {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .panel h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .panel form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .panel label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .panel input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  .panel input:focus {
+    outline: none;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .kirmizi {
+    color: #fff;
+    background-color: #ff3b3f;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .gri {
+    color: #fff;
+    background-color: #666;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .kosullar {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  .kosullar a {
+    color: #fff;
+  }
+  

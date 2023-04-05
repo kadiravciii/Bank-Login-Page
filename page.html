@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Örnek Banka Giriş Formu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <div class="panel">
+      <h2>Giriş Yap</h2>
+      <form>
+        <label for="tc">TC</label>
+        <input type="text" id="tc" name="tc" required>
+
+        <label for="kart-numarasi">Kart Numarası</label>
+        <input type="text" id="kart-numarasi" name="kart-numarasi" required>
+
+        <label for="kart-sifresi">Kart Şifresi</label>
+        <input type="password" id="kart-sifresi" name="kart-sifresi" required>
+
+        <div class="buttons">
+          <button class="kirmizi">Giriş Yap</button>
+          <button class="gri">Şifre Sıfırla</button>
+          <button class="gri">Şifremi Unuttum</button>
+        </div>
+      </form>
+
+      <p class="kosullar">Giriş yaparak <a href="#">şartlar ve koşulları</a> kabul etmiş sayılırsınız.</p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
